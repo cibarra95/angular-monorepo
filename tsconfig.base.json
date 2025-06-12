@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-monorepo/auth": ["libs/shared/auth/src/index.ts"],
+      "@angular-monorepo/conexiones": ["libs/conexiones/src/index.ts"],
+      "@angular-monorepo/i18n": ["libs/shared/i18n/src/index.ts"],
+      "@angular-monorepo/monitoreo": ["libs/monitoreo/src/index.ts"],
+      "@angular-monorepo/ui": ["libs/shared/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
